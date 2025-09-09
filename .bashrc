@@ -13,3 +13,4 @@ alias ls='ls -a'
 alias ll='ls -al'
 alias c='clear'
 
+DUMMY="This is a test"
