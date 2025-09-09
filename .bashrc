@@ -14,3 +14,13 @@ alias ll='ls -al'
 alias c='clear'
 
 DUMMY="This is a test"
+
+tvim()
+{
+	if [ "$1" == "" ];
+	then
+	echo "nom manquant"
+	return 1
+	fi
+	touch "$1" && nvim "$1"
+}
