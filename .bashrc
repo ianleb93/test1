@@ -24,3 +24,8 @@ tvim()
 	fi
 	touch "$1" && nvim "$1"
 }
+
+grpi()
+{
+	grep -i "$1" "$2"
+}
